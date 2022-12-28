@@ -3,4 +3,4 @@
 *.egg-info
 *.swp
 tags
-research_app/docs/current
+custom_app/docs/current

@@ -3,15 +3,15 @@ from setuptools import setup, find_packages
 with open("requirements.txt") as f:
 	install_requires = f.read().strip().split("\n")
 
-# get version from __version__ variable in research_app/__init__.py
-from research_app import __version__ as version
+# get version from __version__ variable in custom_app/__init__.py
+from custom_app import __version__ as version
 
 setup(
-	name="research_app",
+	name="custom_app",
 	version=version,
-	description="research_app",
+	description="custom-app",
 	author="harsh",
-	author_email="harsh.t@korecent.com",
+	author_email="harsh@korecent.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

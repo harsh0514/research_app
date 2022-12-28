@@ -1,6 +1,6 @@
-## research_app
+## custom-app
 
-research_app
+custom-app
 
 #### License
 
